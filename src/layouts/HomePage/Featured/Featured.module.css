@@ -3,3 +3,11 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 44px;
 }
+
+@media (max-width: 760px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}

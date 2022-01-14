@@ -18,3 +18,26 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+
+@media (max-width: 760px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    max-width: 300px;
+    margin-top: 3rem;
+  }
+
+  .connectWallet > img {
+    top: 50px;
+    right: 50px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .connectWallet > img {
+    top: 40px;
+    right: 40px;
+    width: 35px;
+  }
+}

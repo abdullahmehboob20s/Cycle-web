@@ -10,3 +10,15 @@
 .socialLink > :not(:last-child) {
   margin-right: 3rem;
 }
+
+@media (max-width: 760px) {
+  .socialLink {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .socialLink > :not(:last-child) {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+}

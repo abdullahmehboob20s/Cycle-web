@@ -10,7 +10,7 @@ function About() {
           <Title title="ABOUT" />
         </div>
 
-        <p className="fs-26px white font-anybody-medium lh-1_4">
+        <p className="fs-24px white font-anybody-medium lh-1_4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

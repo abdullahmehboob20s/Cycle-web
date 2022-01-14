@@ -11,12 +11,12 @@ function Roadmap() {
           <Title title="ROADMAP" />
         </div>
 
-        <p className="fs-26px lh-1_4 mb-30px font-anybody-medium uppercase white text-center">
+        <p className="fs-24px lh-1_4 mb-30px font-anybody-medium uppercase white text-center">
           RICH CYCLE REBELS NFT was created to be the highest rewarding NFT
           collection for the community. With continued giveaways, games,
           announcements and more…
         </p>
-        <p className="fs-26px lh-1_4 font-anybody-medium uppercase white text-center mb-100px">
+        <p className="fs-24px lh-1_4 font-anybody-medium uppercase white text-center mb-100px">
           RICH CYCLE REBELS is an NFT for the people. Here are our Phases:
         </p>
       </div>

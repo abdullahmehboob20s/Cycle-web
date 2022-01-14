@@ -58,7 +58,7 @@ body {
   border: 20px solid #f3e500;
   border-bottom: 0;
   min-height: 100vh;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   overflow-x: hidden !important;
   display: flex;
   flex-direction: column;
@@ -540,4 +540,111 @@ ul {
 li {
   list-style: none;
   list-style-type: none;
+}
+
+@media (max-width: 1500px) {
+  :root {
+    --fs-172px: 112px;
+    --fs-168px: 100px;
+    --fs-144px: 80px;
+    --fs-96px: 60px;
+    --fs-32px: 22px;
+    --fs-46px: 30px;
+    --fs-50px: 35px;
+    --fs-26px: 20px;
+    --fs-28px: 22px;
+    --fs-20px: 18px;
+    --fs-68px: 48px;
+    --fs-44px: 30px;
+    --fs-56px: 46px;
+    --fs-88px: 50px;
+    --fs-38px: 24px;
+    --fs-60px: 40px;
+    --fs-74px: 50px;
+    --fs-80px: 55px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container-wrapper-2 {
+    width: 90%;
+  }
+
+  .mb-100px {
+    margin-bottom: 70px;
+  }
+
+  :root {
+    --fs-172px: 70px;
+    --fs-168px: 60px;
+    --fs-96px: 40px;
+    --fs-32px: 16px;
+    --fs-46px: 22px;
+    --fs-50px: 28px;
+
+    --fs-56px: 36px;
+    --fs-144px: 60px;
+    --fs-26px: 18px;
+    --fs-20px: 16px;
+    --fs-40px: 30px;
+    --fs-68px: 38px;
+    --fs-44px: 22px;
+  }
+}
+
+@media (max-width: 760px) {
+  :root {
+    --fs-172px: 50px;
+    --fs-144px: 40px;
+    --fs-168px: 40px;
+
+    --fs-56px: 22px;
+    --fs-28px: 20px;
+    --fs-26px: 16px;
+    --fs-60px: 22px;
+    --fs-38px: 18px;
+    --fs-88px: 30px;
+    --fs-68px: 28px;
+    --fs-44px: 18px;
+    --fs-74px: 30px;
+    --fs-80px: 30px;
+    --fs-50px: 20px;
+    --fs-96px: 30px;
+  }
+
+  .mb-70px {
+    margin-bottom: 20px;
+  }
+
+  body {
+    border: 10px solid #f3e500;
+  }
+}
+
+@media (max-width: 550px) {
+  :root {
+    --fs-172px: 35px;
+    --fs-144px: 40px;
+    --fs-168px: 30px;
+
+    --fs-56px: 13px;
+    --fs-26px: 6px;
+    --fs-60px: 22px;
+    --fs-38px: 12px;
+    --fs-88px: 20px;
+    --fs-68px: 28px;
+    --fs-44px: 18px;
+    --fs-96px: 22px;
+    --fs-46px: 16px;
+    --fs-32px: 10px;
+    --fs-50px: 16px;
+    --fs-68px: 20px;
+    --fs-28px: 10px;
+    --fs-24px: 14px;
+    --fs-34px: 24px;
+  }
+
+  .mb-100px {
+    margin-bottom: 50px;
+  }
 }

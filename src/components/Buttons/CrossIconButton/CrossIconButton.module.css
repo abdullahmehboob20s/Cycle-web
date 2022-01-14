@@ -5,3 +5,9 @@
   cursor: pointer;
   z-index: 10000 !important;
 }
+
+@media (max-width: 1500px) {
+  .closeIcon {
+    width: 60px;
+  }
+}

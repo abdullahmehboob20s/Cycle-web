@@ -21,7 +21,7 @@ function Rebels() {
 
             <div className={`${styles.aboutContent} mb-50px`}>
               <h2 className="fs-96px white mb-30px font-anybody-black text-center">
-                IS <br /> RICH CYCLE REBELS ?
+                IS <br /> RICH CYCLE <br /> REBELS ?
               </h2>
 
               <p className="fs-32px font-anybody-medium white text-center lh-1_4">

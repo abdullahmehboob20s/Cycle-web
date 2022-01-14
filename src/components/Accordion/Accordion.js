@@ -22,7 +22,7 @@ function Accordion({ question, answer }) {
         onClick={handler}
         className={`${styles.accordionBtn} ${isOpen ? styles.open : ""}`}
       >
-        <p className="fs-26px white uppercsae font-anybody-bold">{question}</p>
+        <p className="fs-24px white uppercsae font-anybody-bold">{question}</p>
 
         <div className={styles.btnIcon}></div>
       </div>

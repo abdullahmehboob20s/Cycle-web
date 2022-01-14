@@ -28,3 +28,25 @@
 .card_right {
   flex: 1;
 }
+
+@media (max-width: 1000px) {
+  .card_left {
+    width: 160px;
+  }
+}
+@media (max-width: 760px) {
+  .card_left {
+    width: 160px;
+  }
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .card_left {
+    margin-right: 0;
+    margin-bottom: 1.2rem;
+  }
+}

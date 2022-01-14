@@ -63,3 +63,42 @@
   right: 100px;
   z-index: 1000000;
 }
+
+@media (max-width: 550px) {
+  .socialLink {
+    flex-direction: column;
+  }
+
+  .socialLink > :not(:last-child) {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .menuContent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .menuContent > :not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .menuContent > a {
+    font-size: 20px;
+  }
+
+  .menuWrapper img {
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: unset;
+    width: 50px;
+  }
+
+  .menuWrapper .connectWallet {
+    font-size: 20px;
+  }
+}

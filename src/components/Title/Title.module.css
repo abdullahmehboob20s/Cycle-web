@@ -2,3 +2,9 @@
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #f3e500;
 }
+
+@media (max-width: 760px) {
+  .title {
+    -webkit-text-stroke-width: 1.5px;
+  }
+}
