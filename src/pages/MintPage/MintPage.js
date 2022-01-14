@@ -1,7 +1,7 @@
 import CrossIconButton from "components/Buttons/CrossIconButton/CrossIconButton";
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./MintPage.module.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Rights from "components/Rights/Rights";
 import plusIcon from "assets/images/plus-icon.png";
 import minusIcon from "assets/images/minus-icon.png";
@@ -29,8 +29,8 @@ const TimerBox = ({ count, title }) => {
 function MintPage() {
   const navigate = useNavigate();
   const isBellow = useMediaQuery("(max-width: 500px)");
-  const [counter, setCounter] = useState(1);
 
+  const [counter, setCounter] = useState(1);
   const [deadline, setDeadline] = useState("Jan 30, 2022 00:00:00");
 
   const [timerDays, setTimerDays] = useState("00");
@@ -98,7 +98,8 @@ function MintPage() {
             <div
               className={`${styles.mintCount} fs-40px text-center font-anybody-regular white `}
             >
-              211 / 777
+              {counter < 10 && counter >= 0 ? "0" : ""}
+              {counter} / 777
             </div>
           </div>
           <div className={`${styles.counter} mb-60px`}>
@@ -114,7 +115,10 @@ function MintPage() {
               {counter < 10 && counter >= 0 ? "0" : ""}
               {counter}
             </div>
-            <button className="pointer" onClick={() => setCounter(counter + 1)}>
+            <button
+              className="pointer"
+              onClick={() => setCounter(counter > 777 ? counter : counter + 1)}
+            >
               <img src={plusIcon} alt="" />
             </button>
           </div>
@@ -124,11 +128,12 @@ function MintPage() {
             >
               MINT
             </button>
-            <button
-              className={`${styles.mintButton} ${styles.reverse} fs-46px block pointer font-anybody-black uppercase mb-20px`}
+            <Link
+              to="/connect-wallet"
+              className={`${styles.mintButton} ${styles.reverse} text-center fs-46px block pointer font-anybody-black uppercase mb-20px`}
             >
               CONNECT
-            </button>
+            </Link>
           </div>
         </div>
       </div>
