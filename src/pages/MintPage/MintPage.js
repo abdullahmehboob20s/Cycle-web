@@ -102,7 +102,10 @@ function MintPage() {
             </div>
           </div>
           <div className={`${styles.counter} mb-60px`}>
-            <button className="pointer" onClick={() => setCounter(counter - 1)}>
+            <button
+              className="pointer"
+              onClick={() => setCounter(counter <= 1 ? 1 : counter - 1)}
+            >
               <img src={minusIcon} alt="" />
             </button>
             <div

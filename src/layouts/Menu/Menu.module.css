@@ -64,6 +64,13 @@
   z-index: 1000000;
 }
 
+@media (max-width: 760px) {
+  .menu {
+    border: 20px solid var(--body);
+    border-bottom: 0;
+  }
+}
+
 @media (max-width: 550px) {
   .socialLink {
     flex-direction: column;

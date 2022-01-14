@@ -4,6 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 import { Link } from "react-router-dom";
 import AppContext from "context/AppContext";
 import CrossIconButton from "components/Buttons/CrossIconButton/CrossIconButton";
+import Rights from "components/Rights/Rights";
 
 function Menu() {
   const { isMenuOpen, setIsMenuOpen } = useContext(AppContext);
@@ -81,11 +82,9 @@ function Menu() {
           </div>
         </div>
       </div>
-      <p
-        className={`${styles.footer} fs-20px white font-anybody-regular text-center`}
-      >
-        ©2022 RICH CYCLE REBELS . ALL RIGHTS RESERVED
-      </p>
+      <Rights
+        style={{ background: "#1a1b1c", color: "white", padding: ".8rem 0" }}
+      />
     </div>
   );
 }

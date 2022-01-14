@@ -8,7 +8,7 @@ function Milestones() {
     <>
       <div className="mb-70px">
         <div className="container-wrapper">
-          <div className="mb-30px">
+          <div className="mb-30px milsTitle">
             <Title title="MILESTONES" />
           </div>
           <h1 className="text-center fs-46px white font-anybody-black uppercase">

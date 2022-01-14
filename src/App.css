@@ -618,6 +618,7 @@ li {
 
   body {
     border: 10px solid #f3e500;
+    border-bottom: 0;
   }
 }
 
@@ -646,5 +647,11 @@ li {
 
   .mb-100px {
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .milsTitle h1 {
+    font-size: 30px;
   }
 }

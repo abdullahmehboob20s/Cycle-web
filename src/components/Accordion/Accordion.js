@@ -29,7 +29,7 @@ function Accordion({ question, answer }) {
 
       <div className={`${styles.accoridonBody} `} ref={accordionBody}>
         <div className={styles.accordionContent}>
-          <p className="fs-30px font-anybody-light lh-1_5 white">{answer}</p>
+          <p className="fs-24px font-anybody-light lh-1_5 white">{answer}</p>
         </div>
       </div>
     </div>

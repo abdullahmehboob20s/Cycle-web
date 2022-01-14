@@ -8,8 +8,11 @@ import crew3 from "assets/images/crew-3.png";
 import crew4 from "assets/images/crew-4.png";
 import crew5 from "assets/images/crew-5.png";
 import FeaturedCard from "components/Cards/FeaturedCard/FeaturedCard";
+import useMediaQuery from "utils/hooks/useMediaQuery ";
 
 function Crew() {
+  const isBellow = useMediaQuery("(max-width: 1000px)");
+
   return (
     <div className="container-wrapper">
       <div className="mb-50px">
@@ -30,7 +33,7 @@ function Crew() {
         />
         <FeaturedCard
           img={crew4}
-          title="NOTORIOM"
+          title={isBellow ? "NTRM" : "NOTORIOM"}
           subtitle="UXKNOWN"
           titleFontSize="fs-60px"
         />

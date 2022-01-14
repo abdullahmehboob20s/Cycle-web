@@ -6,3 +6,9 @@
   line-height: 100%;
   padding: 0.2rem 2rem;
 }
+
+@media (max-width: 500px) {
+  .footerBottom {
+    font-size: 8px;
+  }
+}
