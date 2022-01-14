@@ -1,0 +1,7 @@
+.closeIcon {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  cursor: pointer;
+  z-index: 10000 !important;
+}

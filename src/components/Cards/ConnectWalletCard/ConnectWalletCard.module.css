@@ -1,0 +1,22 @@
+.card {
+  border: 3px solid #f3e500;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+  padding-bottom: 50px;
+}
+
+.card img {
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+}
+
+.card button {
+  width: 100%;
+  background: #f3e500;
+  text-align: center;
+  padding: 1rem 1.5rem;
+}

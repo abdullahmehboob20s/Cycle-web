@@ -1,0 +1,12 @@
+.footerWrapper {
+  border-top: 10px solid #f3e500;
+}
+.socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialLink > :not(:last-child) {
+  margin-right: 3rem;
+}

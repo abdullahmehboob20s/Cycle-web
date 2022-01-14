@@ -1,0 +1,56 @@
+.aboutWrapper {
+  background: url(../../../assets/images/warning-banner.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutParent {
+  min-height: 100vh;
+  padding-top: 250px;
+}
+
+.about {
+  border: 2px solid red;
+  max-width: 872px;
+  margin: 0 auto;
+  border: 14px solid #f3e500;
+  box-sizing: border-box;
+  border-radius: 50px;
+  /* overflow: hidden; */
+  padding: 2rem 0;
+  padding-top: 0;
+}
+
+.avatar {
+  width: 415px;
+  height: 415px;
+  border-radius: 50%;
+  padding: 4rem;
+  border: 14px solid #f3e500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1b1c;
+  margin: 0 auto;
+  margin-top: -215px;
+  margin-bottom: 3rem;
+}
+
+.aboutTitle {
+  width: 100%;
+  padding: 0.5rem 0;
+  background: #fd0130;
+}
+
+.aboutTitle > h1 {
+  text-shadow: 8px 18px 7px #000000;
+}
+
+.aboutContent {
+  padding: 0 70px;
+}
+
+.aboutButton {
+  padding: 2rem 0;
+  background: #f3e500;
+}

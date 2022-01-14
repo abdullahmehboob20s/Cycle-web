@@ -1,0 +1,8 @@
+.wrapper {
+  min-height: calc(100vh - 20px);
+  display: flex;
+  flex-direction: column;
+}
+.body {
+  flex: 1;
+}

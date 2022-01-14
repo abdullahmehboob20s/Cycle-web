@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.5rem 0;
+  border-bottom: 2px solid #f3e70025;
+}
+.card:last-child {
+  border-bottom: 0px;
+}
+.card_left {
+  width: 214px;
+  border-radius: 7px;
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+  border: 3px solid #f3e500;
+  color: #f3e500;
+  transition: all 0.3s ease;
+}
+
+.card.active .card_left {
+  background: #f3e500;
+  color: black;
+}
+
+.card_right {
+  flex: 1;
+}
