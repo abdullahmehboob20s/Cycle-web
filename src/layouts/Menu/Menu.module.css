@@ -64,7 +64,21 @@
   z-index: 1000000;
 }
 
+@media (max-height: 650px) {
+  .menuWrapper > img {
+    top: 40px !important;
+    left: unset !important;
+    right: 20px !important;
+    transform: translateX(0%);
+    width: 40px !important;
+  }
+}
+
 @media (max-width: 760px) {
+  .menu {
+    border: 20px solid var(--body);
+    border-bottom: 0;
+  }
   .menu {
     border: 20px solid var(--body);
     border-bottom: 0;
@@ -97,7 +111,7 @@
     font-size: 20px;
   }
 
-  .menuWrapper img {
+  .menuWrapper > img {
     top: 60px;
     left: 50%;
     transform: translateX(-50%);

@@ -1,14 +1,18 @@
+.crews {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .featuredCrews {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  padding: 0 200px;
+  gap: 2rem;
 }
 
 .CrewsCards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
+  gap: 2rem;
 }
 
 @media (max-width: 1400px) {

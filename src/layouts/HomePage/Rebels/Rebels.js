@@ -9,18 +9,20 @@ function Rebels() {
       <div className="container-wrapper ">
         <div className={`${styles.aboutParent} py-100px`}>
           <div className={styles.about}>
-            <div className={styles.avatar}>
-              <img className="w-full" src={logoWhite} alt="" />
+            <div className="mb-30px">
+              <div className={styles.avatar}>
+                <img className="w-full" src={logoWhite} alt="" />
+              </div>
             </div>
 
-            <div className={`${styles.aboutTitle} mb-40px`}>
+            <div className={`${styles.aboutTitle} mb-25px`}>
               <h1 className="fs-168px white font-anybody-black text-center">
                 WTF !
               </h1>
             </div>
 
-            <div className={`${styles.aboutContent} mb-50px`}>
-              <h2 className="fs-96px white mb-30px font-anybody-black text-center">
+            <div className={`${styles.aboutContent} mb-30px`}>
+              <h2 className="fs-96px white mb-15px font-anybody-black text-center">
                 IS <br /> RICH CYCLE <br /> REBELS ?
               </h2>
 
@@ -34,7 +36,7 @@ function Rebels() {
 
             <Link
               to="/mint"
-              className={`${styles.aboutButton} mb-40px w-full fs-46px black text-center block pointer font-anybody-black`}
+              className={`${styles.aboutButton} mb-25px w-full fs-46px black text-center block pointer font-anybody-black`}
             >
               MINT REBELS
             </Link>

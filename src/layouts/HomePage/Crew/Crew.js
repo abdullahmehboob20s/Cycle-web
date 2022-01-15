@@ -19,30 +19,32 @@ function Crew() {
         <Title title="CREW" />
       </div>
 
-      <div className={`${styles.featuredCrews} mb-100px`}>
-        <FeaturedCard img={crew1} title="TAREK" subtitle="CO-FOUNDER" />
-        <FeaturedCard img={crew2} title="MG" subtitle="CO-FOUNDER" />
-      </div>
+      <div className={styles.crews}>
+        <div className={`${styles.featuredCrews} mb-50px`}>
+          <FeaturedCard img={crew1} title="TAREK" subtitle="CO-FOUNDER" />
+          <FeaturedCard img={crew2} title="MG" subtitle="CO-FOUNDER" />
+        </div>
 
-      <div className={styles.CrewsCards}>
-        <FeaturedCard
-          img={crew3}
-          title="ALEX"
-          subtitle="MOD"
-          titleFontSize="fs-60px"
-        />
-        <FeaturedCard
-          img={crew4}
-          title={isBellow ? "NTRM" : "NOTORIOM"}
-          subtitle="UXKNOWN"
-          titleFontSize="fs-60px"
-        />
-        <FeaturedCard
-          img={crew5}
-          title="MACH"
-          subtitle="ROBOT"
-          titleFontSize="fs-60px"
-        />
+        <div className={styles.CrewsCards}>
+          <FeaturedCard
+            img={crew3}
+            title="ALEX"
+            subtitle="MOD"
+            titleFontSize="fs-34px"
+          />
+          <FeaturedCard
+            img={crew4}
+            title={isBellow ? "NTRM" : "NOTORIOM"}
+            subtitle="UXKNOWN"
+            titleFontSize="fs-34px"
+          />
+          <FeaturedCard
+            img={crew5}
+            title="MACH"
+            subtitle="ROBOT"
+            titleFontSize="fs-34px"
+          />
+        </div>
       </div>
     </div>
   );

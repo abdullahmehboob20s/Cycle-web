@@ -10,6 +10,15 @@
   border-radius: 50px;
 }
 
+@media (max-width: 1600px) {
+  .card {
+    border-radius: 30px;
+  }
+  .card img {
+    border-radius: 30px;
+  }
+}
+
 @media (max-width: 1000px) {
   .card {
     border-radius: 20px;

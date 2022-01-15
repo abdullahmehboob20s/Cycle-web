@@ -469,12 +469,12 @@ body {
 /*  */
 
 .container-wrapper {
-  max-width: 1900px;
+  max-width: 2100px;
   width: 90%;
   margin: 0 auto;
 }
 .container-wrapper-2 {
-  max-width: 1500px;
+  max-width: 2100px;
   width: 70%;
   margin: 0 auto;
 }
@@ -542,15 +542,15 @@ li {
   list-style-type: none;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 2100px) {
   :root {
     --fs-172px: 112px;
-    --fs-168px: 100px;
-    --fs-144px: 80px;
-    --fs-96px: 60px;
-    --fs-32px: 22px;
-    --fs-46px: 30px;
-    --fs-50px: 35px;
+    --fs-168px: 70px;
+    --fs-144px: 65px;
+    --fs-96px: 50px;
+    --fs-32px: 18px;
+    --fs-46px: 24px;
+    --fs-50px: 30px;
     --fs-26px: 20px;
     --fs-28px: 22px;
     --fs-20px: 18px;
