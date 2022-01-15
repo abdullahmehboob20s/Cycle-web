@@ -655,3 +655,8 @@ li {
     font-size: 30px;
   }
 }
+@media (max-width: 340px) {
+  :root {
+    --fs-172px: 28px;
+  }
+}

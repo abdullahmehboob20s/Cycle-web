@@ -22,6 +22,12 @@
   width: 4px;
   height: 100%;
   background-color: var(--yellow);
+
+  transition: all 0.3s ease;
+}
+
+.cardRight.isVisible::before {
+  background-color: #ff008d;
 }
 
 .cardRight::after {
@@ -36,6 +42,15 @@
   background-color: var(--body);
   border: 5px solid var(--yellow);
   transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.cardRight.isVisible::before {
+  background-color: #ff008d;
+}
+.cardRight.isVisible::after {
+  border: 5px solid #ff008d;
+  background-color: #ff008d !important;
 }
 
 .cardWrapper.active .cardRight::after {

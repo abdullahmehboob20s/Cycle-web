@@ -12,6 +12,7 @@ import Crew from "layouts/HomePage/Crew/Crew";
 import FAQ from "layouts/HomePage/FAQ/FAQ";
 import Footer from "layouts/Footer/Footer";
 import Menu from "layouts/Menu/Menu";
+import video from "assets/videos/video.mp4";
 
 function HomePage() {
   return (
@@ -23,8 +24,8 @@ function HomePage() {
       <div id="rebels">
         <Rebels />
       </div>
-      <div className="mb-100px">
-        <img src={videImg} className="w-full" alt="" />
+      <div className={`${styles.videContainer} mb-100px`}>
+        <video src={video} className={styles.video} controls></video>
       </div>
       <div className="mb-100px">
         <About />
