@@ -7,12 +7,22 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  align-items: flex-start;
+}
+
+.featuredCrews > div {
+  align-self: flex-start;
 }
 
 .CrewsCards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
+  align-items: flex-start;
+}
+
+.CrewsCards > div {
+  align-self: flex-start;
 }
 
 @media (max-width: 1400px) {
