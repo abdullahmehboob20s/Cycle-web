@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a86f91a9.css",
+    "main.js": "/static/js/main.581232b3.js",
+    "static/js/787.e1e73ad0.chunk.js": "/static/js/787.e1e73ad0.chunk.js",
+    "static/media/video.mp4": "/static/media/video.70fdaccebb425b6b9215.mp4",
+    "static/media/hero-img.png": "/static/media/hero-img.ed6abb975e55b8d10218.png",
+    "static/media/warning-banner.png": "/static/media/warning-banner.0c811b078bd55bb0f8d3.png",
+    "static/media/crew-1.png": "/static/media/crew-1.2068a328d6b9d760efa0.png",
+    "static/media/videoImg.png": "/static/media/videoImg.016c9c60c416b46a8ba7.png",
+    "static/media/crew-2.png": "/static/media/crew-2.75cbc654825d3c49d8e2.png",
+    "static/media/featured-img-2.png": "/static/media/featured-img-2.7dd0bd3c179daee3260b.png",
+    "static/media/featured-img-3.png": "/static/media/featured-img-3.faa1b62ab279e57691ec.png",
+    "static/media/crew-4.png": "/static/media/crew-4.361265cc0485dbddf195.png",
+    "static/media/featured-img-1.png": "/static/media/featured-img-1.b77ceaa0289063e5a02c.png",
+    "static/media/crew-5.png": "/static/media/crew-5.0242c6a31161ae399f31.png",
+    "static/media/crew-3.png": "/static/media/crew-3.bad45a99f870aecdc187.png",
+    "static/media/featured-img-5.png": "/static/media/featured-img-5.31ce36b434b53a06c416.png",
+    "static/media/featured-img-6.png": "/static/media/featured-img-6.8054c15be82ef3340d6a.png",
+    "static/media/Anybody-ExtraExpandedLight.ttf": "/static/media/Anybody-ExtraExpandedLight.7c4bd24ae4d7b503c3be.ttf",
+    "static/media/featured-img-4.png": "/static/media/featured-img-4.179940f34ef855d8269a.png",
+    "static/media/Anybody-ExtraExpandedBold.ttf": "/static/media/Anybody-ExtraExpandedBold.b9822778afc523be07a2.ttf",
+    "static/media/Anybody-ExtraExpandedBlack.ttf": "/static/media/Anybody-ExtraExpandedBlack.15f62cfa803b06c8c568.ttf",
+    "static/media/Anybody-ExtraExpandedSemiBold.ttf": "/static/media/Anybody-ExtraExpandedSemiBold.5b1b7b48f05c3da68a3a.ttf",
+    "static/media/Anybody-ExtraExpandedMedium.ttf": "/static/media/Anybody-ExtraExpandedMedium.b28f674407d90f583cef.ttf",
+    "static/media/Anybody-ExtraExpandedRegular.ttf": "/static/media/Anybody-ExtraExpandedRegular.b05ca415ce55e6332a1f.ttf",
+    "index.html": "/index.html",
+    "main.a86f91a9.css.map": "/static/css/main.a86f91a9.css.map",
+    "main.581232b3.js.map": "/static/js/main.581232b3.js.map",
+    "787.e1e73ad0.chunk.js.map": "/static/js/787.e1e73ad0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a86f91a9.css",
+    "static/js/main.581232b3.js"
+  ]
+}
