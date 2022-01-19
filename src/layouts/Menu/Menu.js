@@ -14,52 +14,54 @@ function Menu() {
       <CrossIconButton onClick={() => setIsMenuOpen(false)} variant="black" />
 
       <div className={`${styles.menu} `}>
-        <div className={styles.menuContent}>
-          <ScrollLink
-            to=""
-            className="fs-74px text-body font-anybody-black pointer mb-20px block w-fit-content"
+        <div className={styles.menuTop}>
+          <div className={styles.menuContent}>
+            <ScrollLink
+              to=""
+              className="fs-74px text-body font-anybody-black pointer mb-20px block w-fit-content"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              STORY
+            </ScrollLink>
+            <ScrollLink
+              to="rebels"
+              onClick={() => setIsMenuOpen(false)}
+              className="fs-74px text-body font-anybody-black pointer mb-20px block w-fit-content"
+            >
+              FEATURED REBELS
+            </ScrollLink>
+            <ScrollLink
+              to="roadmap"
+              onClick={() => setIsMenuOpen(false)}
+              className="fs-74px text-body font-anybody-black pointer mb-20px block w-fit-content"
+            >
+              ROADMAP
+            </ScrollLink>
+            <ScrollLink
+              to="crew"
+              onClick={() => setIsMenuOpen(false)}
+              className="fs-74px text-body font-anybody-black pointer mb-20px block w-fit-content"
+            >
+              CREW
+            </ScrollLink>
+            <ScrollLink
+              to="faq"
+              onClick={() => setIsMenuOpen(false)}
+              className="fs-74px text-body font-anybody-black pointer mb-30px block w-fit-content"
+            >
+              FAQS
+            </ScrollLink>
+          </div>
+          <Link
+            to="/connect-wallet"
+            className={`${styles.connectWallet} text-center block w-full fs-80px font-anybody-black white uppercase mb-40px`}
             onClick={() => setIsMenuOpen(false)}
           >
-            STORY
-          </ScrollLink>
-          <ScrollLink
-            to="rebels"
-            onClick={() => setIsMenuOpen(false)}
-            className="fs-74px text-body font-anybody-black pointer mb-20px block w-fit-content"
-          >
-            FEATURED REBELS
-          </ScrollLink>
-          <ScrollLink
-            to="roadmap"
-            onClick={() => setIsMenuOpen(false)}
-            className="fs-74px text-body font-anybody-black pointer mb-20px block w-fit-content"
-          >
-            ROADMAP
-          </ScrollLink>
-          <ScrollLink
-            to="crew"
-            onClick={() => setIsMenuOpen(false)}
-            className="fs-74px text-body font-anybody-black pointer mb-20px block w-fit-content"
-          >
-            CREW
-          </ScrollLink>
-          <ScrollLink
-            to="faq"
-            onClick={() => setIsMenuOpen(false)}
-            className="fs-74px text-body font-anybody-black pointer mb-30px block w-fit-content"
-          >
-            FAQS
-          </ScrollLink>
+            CONNECT WALLET
+          </Link>
         </div>
-        <Link
-          to="/connect-wallet"
-          className={`${styles.connectWallet} text-center block w-full fs-80px font-anybody-black white uppercase mb-40px`}
-          onClick={() => setIsMenuOpen(false)}
-        >
-          CONNECT WALLET
-        </Link>
 
-        <div className="container-wrapper">
+        <div className={`container-wrapper`}>
           <div className={styles.socialLink}>
             <a
               href="#"

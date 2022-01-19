@@ -8,11 +8,14 @@ import featuredImg3 from "assets/images/featured-img-3.png";
 import featuredImg4 from "assets/images/featured-img-4.png";
 import featuredImg5 from "assets/images/featured-img-5.png";
 import featuredImg6 from "assets/images/featured-img-6.png";
+import useMediaQuery from "utils/hooks/useMediaQuery ";
 
 function Featured() {
+  const isBellow = useMediaQuery("(max-width: 500px)");
+
   return (
     <div className="container-wrapper">
-      <div className="mb-55px">
+      <div className={isBellow ? "mb-35px" : `mb-55px`}>
         <Title title="FEATURED" />
       </div>
 

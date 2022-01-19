@@ -29,6 +29,13 @@
   padding-bottom: 40px;
 }
 
+.menuTop {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .menuContent {
   padding: 2rem 3rem;
 }
