@@ -1,6 +1,7 @@
 .cardWrapper {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 /* .cardLeft {
@@ -10,11 +11,12 @@
 .cardRight {
   flex: 1;
   position: relative;
-  padding-bottom: 5rem;
   margin-left: 200px;
+
+  padding-bottom: 5rem;
 }
 
-.cardRight::before {
+/* .cardRight::before {
   content: "";
   position: absolute;
   top: 0;
@@ -24,20 +26,20 @@
   background-color: var(--yellow);
 
   transition: all 0.3s ease;
-}
+} */
 
 .cardRight.isVisible::before {
   background-color: #ff008d;
 }
 
-.cardRight::after {
+.cardRightCircle {
   content: "";
   position: absolute;
   top: -2px;
   left: -78px;
   transform: translateX(-50%);
-  width: 29px;
-  height: 29px;
+  width: 39px;
+  height: 39px;
   z-index: 10;
   border-radius: 50%;
   background-color: var(--body);
@@ -49,7 +51,7 @@
 .cardRight.isVisible::before {
   background-color: #ff008d;
 }
-.cardRight.isVisible::after {
+.cardRight.isVisible .cardRightCircle {
   border: 5px solid #ff008d;
   background-color: #ff008d !important;
 }
@@ -82,7 +84,7 @@
   }
 }
 @media (max-width: 760px) {
-  .cardRight::after {
+  .cardRightCircle {
     left: -38px;
     width: 18px;
     height: 18px;
@@ -106,7 +108,7 @@
     padding: 15px 28px;
   }
 
-  .cardRight::after {
+  .cardRightCircle {
     left: -18px;
     width: 8px;
     height: 8px;
