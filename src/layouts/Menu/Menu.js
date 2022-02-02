@@ -86,6 +86,8 @@ function Menu() {
       </div>
       <Rights
         style={{ background: "#1a1b1c", color: "white", padding: ".8rem 0" }}
+        linkStyle={{ color: "white", right: "40px" }}
+        textStyle={{ color: "white" }}
       />
     </div>
   );

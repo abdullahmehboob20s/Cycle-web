@@ -1,11 +1,4 @@
-.wrapper {
-  border-bottom: 20px solid #f3e500;
-}
-
 @media (max-width: 760px) {
-  .wrapper {
-    border-bottom: 10px solid #f3e500;
-  }
   .wrapper p {
     font-size: 16px;
   }

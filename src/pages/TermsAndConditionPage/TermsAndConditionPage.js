@@ -1,4 +1,5 @@
 import Title from "components/Title/Title";
+import Footer from "layouts/Footer/Footer";
 import React from "react";
 import useMediaQuery from "utils/hooks/useMediaQuery ";
 import styles from "./TermsAndConditionPage.module.css";
@@ -11,7 +12,7 @@ function TermsAndConditionPage() {
         className={`container-wrapper ${isBellow500px ? "py-30px" : "py-50px"}`}
       >
         <div className="mb-30px">
-          <Title title="Privacy Policy" className="fs-74px " />
+          <Title title="Privacy Policy" className="fs-74px uppercase" />
         </div>
         <p className="fs-22px white font-anybody-regular mb-35px lh-1_6">
           One of our main priorities is the privacy of our visitors. This
@@ -312,7 +313,7 @@ function TermsAndConditionPage() {
           </p>
         </div>
 
-        <div>
+        <div className="mb-50px">
           <div className="font-anybody-bold yellow mb-25px block fs-40px uppercase">
             Children's Information
           </div>
@@ -330,6 +331,8 @@ function TermsAndConditionPage() {
           </p>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }
