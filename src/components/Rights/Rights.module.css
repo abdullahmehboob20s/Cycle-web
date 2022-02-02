@@ -6,13 +6,37 @@
   line-height: 100%;
   padding: 0.3rem 2rem;
   /* flex-direction: column; */
+  position: relative;
 }
 .footerBottom > :not(:last-child) {
   margin-right: 1rem;
 }
 
+.privacyPolicy {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 760px) {
+  .footerBottom {
+    flex-direction: column;
+  }
+  .privacyPolicy {
+    position: static;
+    top: 0%;
+    transform: translateY(0%);
+    margin-top: 0.5rem;
+  }
+}
+
 @media (max-width: 500px) {
   .footerBottom {
     font-size: 8px;
+  }
+
+  .privacyPolicy {
+    margin-top: 0.8rem;
   }
 }

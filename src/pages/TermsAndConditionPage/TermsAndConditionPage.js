@@ -72,7 +72,7 @@ function TermsAndConditionPage() {
           Find and prevent fraud
         </p>
         <div className="mb-80px">
-          <div className="font-anybody-bold white mb-25px block fs-40px uppercase">
+          <div className="font-anybody-bold yellow mb-25px block fs-40px uppercase">
             Log Files
           </div>
           <p className="fs-22px white font-anybody-regular  lh-1_6">
@@ -96,7 +96,7 @@ function TermsAndConditionPage() {
           </p>
         </div>
         <div className="mb-80px">
-          <div className="font-anybody-bold white mb-25px block fs-40px uppercase">
+          <div className="font-anybody-bold yellow mb-25px block fs-40px uppercase">
             Cookies and Web Beacons
           </div>
           <p className="fs-22px white font-anybody-regular  lh-1_6">
@@ -119,7 +119,7 @@ function TermsAndConditionPage() {
         </div>
 
         <div className="mb-80px">
-          <div className="font-anybody-bold white mb-25px block fs-40px uppercase">
+          <div className="font-anybody-bold yellow mb-25px block fs-40px uppercase">
             Google DoubleClick DART Cookie
           </div>
           <p className="fs-22px white font-anybody-regular  lh-1_6">
@@ -170,7 +170,7 @@ function TermsAndConditionPage() {
         </div>
 
         <div className="mb-80px">
-          <div className="font-anybody-bold white mb-25px block fs-40px uppercase">
+          <div className="font-anybody-bold yellow mb-25px block fs-40px uppercase">
             Advertising Partners Privacy Policies
           </div>
           <p className="fs-22px white font-anybody-regular  lh-1_6">
@@ -219,7 +219,7 @@ function TermsAndConditionPage() {
         </div>
 
         <div className="mb-80px">
-          <div className="font-anybody-bold white mb-25px block fs-40px uppercase">
+          <div className="font-anybody-bold yellow mb-25px block fs-40px uppercase">
             Third Party Privacy Policies
           </div>
           <p className="fs-22px white font-anybody-regular  lh-1_6">
@@ -244,7 +244,7 @@ function TermsAndConditionPage() {
         </div>
 
         <div className="mb-80px">
-          <div className="font-anybody-bold white mb-25px block fs-40px uppercase">
+          <div className="font-anybody-bold yellow mb-25px block fs-40px uppercase">
             CCPA Privacy Rights
           </div>
           <p className="fs-22px white font-anybody-regular  lh-1_6">
@@ -271,7 +271,7 @@ function TermsAndConditionPage() {
         </div>
 
         <div className="mb-80px">
-          <div className="font-anybody-bold white mb-25px block fs-40px uppercase">
+          <div className="font-anybody-bold yellow mb-25px block fs-40px uppercase">
             GDPR Data Protection Rights
           </div>
           <p className="fs-22px white font-anybody-regular  lh-1_6">
@@ -313,7 +313,7 @@ function TermsAndConditionPage() {
         </div>
 
         <div>
-          <div className="font-anybody-bold white mb-25px block fs-40px uppercase">
+          <div className="font-anybody-bold yellow mb-25px block fs-40px uppercase">
             Children's Information
           </div>
           <p className="fs-22px white font-anybody-regular  lh-1_6">
