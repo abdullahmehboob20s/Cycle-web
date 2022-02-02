@@ -5,10 +5,12 @@ import ConnectWalletPage from "pages/ConnectWalletPage/ConnectWalletPage";
 import MintPage from "pages/MintPage/MintPage";
 import ContextProvider from "context/ContextProvider";
 import TermsAndConditionPage from "pages/TermsAndConditionPage/TermsAndConditionPage";
+import ScrollToTop from "components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <ContextProvider>
         <Routes>
           <Route path="/" element={<HomePage />} />
