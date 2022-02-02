@@ -25,7 +25,14 @@ function HomePage() {
         <Rebels />
       </div>
       <div className={`${styles.videContainer} mb-100px`}>
-        <video src={video} className={styles.video} controls></video>
+        <video
+          src={video}
+          className={styles.video}
+          autoPlay={"autoplay"}
+          preLoad="auto"
+          muted={true}
+          controls
+        ></video>
       </div>
       <div className="mb-100px" id="about">
         <About />
@@ -49,7 +56,13 @@ function HomePage() {
         <FAQ />
       </div>
       <div>
-        <Footer />
+        <Footer
+          links={[
+            { title: "OPENSEA", link: "", target: "" },
+            { title: "TWITTER", link: "", target: "" },
+            { title: "DISCORD", link: "", target: "" },
+          ]}
+        />
       </div>
     </div>
   );

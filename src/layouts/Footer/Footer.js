@@ -3,8 +3,9 @@ import React from "react";
 import styles from "./Footer.module.css";
 import RICH_CYCLE from "assets/images/RICH-CYCLE.png";
 import useMediaQuery from "utils/hooks/useMediaQuery ";
+import { Link } from "react-router-dom";
 
-function Footer() {
+function Footer({ links }) {
   const isBellow = useMediaQuery("(max-width: 500px)");
 
   return (
@@ -24,30 +25,17 @@ function Footer() {
           />
 
           <div className={styles.socialLink}>
-            <a
-              href="#"
-              className={`fs-50px ${
-                isBellow ? "yellow" : "white"
-              }  font-anybody-bold uppercase`}
-            >
-              OPENSEA
-            </a>
-            <a
-              href="#"
-              className={`fs-50px ${
-                isBellow ? "yellow" : "white"
-              }  font-anybody-bold uppercase`}
-            >
-              TWITTER
-            </a>
-            <a
-              href="#"
-              className={`fs-50px ${
-                isBellow ? "yellow" : "white"
-              }  font-anybody-bold uppercase`}
-            >
-              DISCORD
-            </a>
+            {links.map((data, index) => (
+              <Link
+                to={data.link}
+                target={data.target}
+                className={`fs-50px ${
+                  isBellow ? "yellow" : "white"
+                }  font-anybody-bold uppercase`}
+              >
+                {data.title}
+              </Link>
+            ))}
           </div>
         </div>
       </div>

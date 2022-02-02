@@ -332,7 +332,14 @@ function TermsAndConditionPage() {
         </div>
       </div>
 
-      <Footer />
+      <Footer
+        links={[
+          { title: "Home", link: "/", target: "" },
+          { title: "OPENSEA", link: "", target: "" },
+          { title: "TWITTER", link: "", target: "" },
+          { title: "DISCORD", link: "", target: "" },
+        ]}
+      />
     </div>
   );
 }

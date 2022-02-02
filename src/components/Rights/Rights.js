@@ -1,8 +1,11 @@
-import React from "react";
+import AppContext from "context/AppContext";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Rights.module.css";
 
 function Rights({ style, linkStyle, textStyle }) {
+  const { isMenuOpen, setIsMenuOpen } = useContext(AppContext);
+
   return (
     <div style={style} className={`${styles.footerBottom}  `}>
       <p
@@ -13,9 +16,9 @@ function Rights({ style, linkStyle, textStyle }) {
       </p>
       <Link
         to="/terms-and-conditions"
-        target="_blank"
         className={`${styles.privacyPolicy}  fs-20px font-anybody-regular hover-underline black`}
         style={linkStyle}
+        onClick={() => setIsMenuOpen(false)}
       >
         Privacy Policy
       </Link>
