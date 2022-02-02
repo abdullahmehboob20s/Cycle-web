@@ -17,7 +17,8 @@ function Menu() {
         <div className={styles.menuTop}>
           <div className={styles.menuContent}>
             <ScrollLink
-              to=""
+              to="about"
+              offset={-100}
               className="fs-74px text-body font-anybody-black pointer mb-20px block w-fit-content"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -53,9 +54,8 @@ function Menu() {
             </ScrollLink>
           </div>
           <Link
-            to="/connect-wallet"
-            className={`${styles.connectWallet} text-center block w-full fs-80px font-anybody-black white uppercase mb-40px`}
-            onClick={() => setIsMenuOpen(false)}
+            to="/"
+            className={`${styles.connectWallet} not-allowed text-center block w-full fs-80px font-anybody-black white uppercase mb-40px`}
           >
             CONNECT WALLET
           </Link>

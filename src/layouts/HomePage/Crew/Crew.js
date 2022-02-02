@@ -10,8 +10,11 @@ import crew5 from "assets/images/crew-5.png";
 import FeaturedCard from "components/Cards/FeaturedCard/FeaturedCard";
 import useMediaQuery from "utils/hooks/useMediaQuery ";
 
+import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 function Crew() {
   const isBellow = useMediaQuery("(max-width: 1000px)");
+  const isBellow500px = useMediaQuery("(max-width: 500px)");
 
   return (
     <div className="container-wrapper">
@@ -21,24 +24,72 @@ function Crew() {
 
       <div className={styles.crews}>
         <div className={`${styles.featuredCrews} mb-50px`}>
-          <FeaturedCard img={crew1} title="TAREK" subtitle="CO-FOUNDER" />
-          <FeaturedCard img={crew2} title="MG" subtitle="CO-FOUNDER" />
+          <FeaturedCard
+            socialIcons={[
+              { icon: <FaTwitter size={isBellow500px ? 16 : 30} />, link: "" },
+              {
+                icon: <FaInstagram size={isBellow500px ? 16 : 30} />,
+                link: "",
+              },
+              { icon: <FaLinkedin size={isBellow500px ? 16 : 30} />, link: "" },
+            ]}
+            img={crew1}
+            title="TAREK"
+            subtitle="CO-FOUNDER"
+          />
+          <FeaturedCard
+            socialIcons={[
+              { icon: <FaTwitter size={isBellow500px ? 16 : 30} />, link: "" },
+              {
+                icon: <FaInstagram size={isBellow500px ? 16 : 30} />,
+                link: "",
+              },
+              { icon: <FaLinkedin size={isBellow500px ? 16 : 30} />, link: "" },
+            ]}
+            img={crew2}
+            title="MG"
+            subtitle="CO-FOUNDER"
+          />
         </div>
 
         <div className={styles.CrewsCards}>
           <FeaturedCard
+            socialIcons={[
+              { icon: <FaTwitter size={isBellow500px ? 16 : 30} />, link: "" },
+              {
+                icon: <FaInstagram size={isBellow500px ? 16 : 30} />,
+                link: "",
+              },
+              { icon: <FaLinkedin size={isBellow500px ? 16 : 30} />, link: "" },
+            ]}
             img={crew3}
             title="ALEX"
             subtitle="MOD"
             titleFontSize="fs-34px"
           />
           <FeaturedCard
+            socialIcons={[
+              { icon: <FaTwitter size={isBellow500px ? 16 : 30} />, link: "" },
+              {
+                icon: <FaInstagram size={isBellow500px ? 16 : 30} />,
+                link: "",
+              },
+              { icon: <FaLinkedin size={isBellow500px ? 16 : 30} />, link: "" },
+            ]}
             img={crew4}
             title={isBellow ? "NTRM" : "NOTORIOM"}
             subtitle="UXKNOWN"
             titleFontSize="fs-34px"
           />
           <FeaturedCard
+            socialIcons={[
+              { icon: <FaTwitter size={isBellow500px ? 16 : 30} />, link: "" },
+              {
+                icon: <FaInstagram size={isBellow500px ? 16 : 30} />,
+                link: "",
+              },
+              { icon: <FaLinkedin size={isBellow500px ? 16 : 30} />, link: "" },
+            ]}
             img={crew5}
             title="MACH"
             subtitle="ROBOT"

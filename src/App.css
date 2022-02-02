@@ -387,7 +387,8 @@ body {
   margin-bottom: 20px;
 }
 .mb-25px {
-  margin-bottom: clamp(5px, 1.7361111111111112vw, 25px);
+  margin-bottom: 25px;
+  /* margin-bottom: clamp(5px, 1.7361111111111112vw, 25px); */
 }
 .mb-30px {
   margin-bottom: clamp(18px, 2.0833333333333335vw, 30px);
@@ -510,9 +511,18 @@ a {
 .pointer {
   cursor: pointer;
 }
+.not-allowed {
+  cursor: not-allowed;
+}
 
 .text-center {
   text-align: center;
+}
+.underline {
+  text-decoration: underline;
+}
+.hover-underline:hover {
+  text-decoration: underline;
 }
 
 button {

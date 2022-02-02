@@ -35,8 +35,8 @@ function Rebels() {
             </div>
 
             <Link
-              to="/mint"
-              className={`${styles.aboutButton} mb-25px w-full fs-46px black text-center block pointer font-anybody-black lh-1`}
+              to="/"
+              className={`${styles.aboutButton} not-allowed mb-25px w-full fs-46px black text-center block pointer font-anybody-black lh-1`}
             >
               MINT REBELS
             </Link>

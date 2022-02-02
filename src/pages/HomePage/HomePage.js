@@ -27,7 +27,7 @@ function HomePage() {
       <div className={`${styles.videContainer} mb-100px`}>
         <video src={video} className={styles.video} controls></video>
       </div>
-      <div className="mb-100px">
+      <div className="mb-100px" id="about">
         <About />
       </div>
       <div className="mb-100px">

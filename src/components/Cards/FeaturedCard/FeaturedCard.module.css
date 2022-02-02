@@ -18,6 +18,17 @@
   align-self: flex-start; */
 }
 
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.socialIcons > :not(:last-child) {
+  margin-right: 0.5rem;
+}
+
 @media (max-width: 1600px) {
   .card {
     border-radius: 30px;
@@ -40,5 +51,9 @@
 @media (max-width: 500px) {
   .card {
     padding: 2px;
+  }
+
+  .socialIcons > :not(:last-child) {
+    margin-right: 0.3rem;
   }
 }

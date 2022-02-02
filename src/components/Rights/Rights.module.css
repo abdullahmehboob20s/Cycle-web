@@ -4,7 +4,11 @@
   align-items: center;
   justify-content: center;
   line-height: 100%;
-  padding: 0.2rem 2rem;
+  padding: 0.3rem 2rem;
+  /* flex-direction: column; */
+}
+.footerBottom > :not(:last-child) {
+  margin-right: 1rem;
 }
 
 @media (max-width: 500px) {

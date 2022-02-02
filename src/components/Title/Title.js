@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Title.module.css";
 
-function Title({ title }) {
+function Title({ title, className = "fs-144px text-center " }) {
   return (
     <h1
-      className={`${styles.title} fs-144px font-anybody-black text-center text-transparent`}
+      className={`${styles.title} ${className} text-transparent font-anybody-black`}
     >
       {title}
     </h1>
